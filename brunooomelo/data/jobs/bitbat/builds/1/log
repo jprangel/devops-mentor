@@ -1,0 +1,23 @@
+Started by user [8mha:////4MSlJG0A6d1IN7eQYD6mGq+sM1Rtdd+khzveUJ5mnCJ3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrador
+ln -s builds/lastSuccessfulBuild /var/jenkins_home/jobs/bitbat/lastSuccessful failed: 71 Protocol error
+ln -s builds/lastStableBuild /var/jenkins_home/jobs/bitbat/lastStable failed: 71 Protocol error
+Building in workspace /var/jenkins_home/workspace/bitbat
+Cloning the remote Git repository
+Cloning repository https://github.com/brunooomelo/bitbat.git
+ > git init /var/jenkins_home/workspace/bitbat # timeout=10
+Fetching upstream changes from https://github.com/brunooomelo/bitbat.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/brunooomelo/bitbat.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/brunooomelo/bitbat.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/brunooomelo/bitbat.git # timeout=10
+Fetching upstream changes from https://github.com/brunooomelo/bitbat.git
+ > git fetch --tags --progress https://github.com/brunooomelo/bitbat.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cfd675f3076694c56cc0655e0f668bed0d116e2c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cfd675f3076694c56cc0655e0f668bed0d116e2c
+Commit message: "Fix SRC (#6)"
+First time build. Skipping changelog.
+Finished: SUCCESS
